@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link src="script.js">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+    </script>
+  
+    <style>
+        
+
+h2{
+
+    text-align: center;
+
+    font-size: 24px;
+
+}
+
+hr{
+
+    margin-bottom: 30px;
+
+}
+
+div.container{
+
+    width: 960px;
+
+    height: 610px;
+
+    margin:50px auto;
+
+    font-family: 'Droid Serif', serif;
+
+    position:relative;
+    
+    padding-left: 20%;
+
+}
+
+div.main{
+
+    width: 320px;
+
+    margin-top: 80px;
+
+    float:left;
+
+    padding: 10px 55px 40px;
+
+    background-color: rgba(242, 216, 239, 0.65);
+
+    border: 15px solid white;
+
+    box-shadow: 0 0 10px;
+
+    border-radius: 2px;
+
+    font-size: 13px;
+
+}
+
+input[type=text],[type=password] {
+
+    width: 97.7%;
+
+    height: 34px;
+
+    padding-left: 5px;
+
+    margin-bottom: 20px;
+
+    margin-top: 8px;
+
+    box-shadow: 0 0 5px #33242f;
+
+    border: 2px solid #cf3dd7;
+
+    color: #4f4f4f;
+
+    font-size: 16px;
+
+}
+
+label{
+
+    color: #464646;
+
+    text-shadow: 0 1px 0 #ab6d6d;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+}
+
+#login {
+
+    width: 100%;
+
+    background:  #845879;
+
+
+    border: 1px solid #0F799E;
+
+    font-size: 20px;
+
+    margin-top: 15px;
+
+    padding: 8px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    color: white;
+
+    text-shadow: 0px 1px 0px #a0669d;
+
+}
+
+#login:hover{
+
+    background: rgb(157, 119, 145)
+
+}
+
+
+
+
+</style>
+
+</head>
+
+
+
+
+<body>
+
+    <div class="d1">
+
+        <h1>“Don't let what you cannot do interfere with what you can do.”</h1>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary " style="padding: 0px; font-size: 30px;">
+
+            <div class="container-fluid">
+
+                <a class="navbar-brand" style="padding-left: 5px; font-size: 40px;" href="#"><i class="bi bi-book"
+
+                    style="padding-right: 4px;"></i>EdifyMe</a>
+         
+     
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+       
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       
+                    <span class="navbar-toggler-icon"></span>
+     
+                </button>
+      
+      
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+     
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+       
+                        
+
+        </ul>
+    
+      </div>
+    </div>
+  </nav>
+</div>
+<body>
+    <div class="container">
+        <div class="main">
+        <form class="form" method="post" action="#">
+        <h2>Login</h2>
+        <p>Enter your correct credentials.</p>
+        <label>Email :</label>
+        <input type="text" name="demail" id="email">
+        <label>Password :</label>
+        <input type="password" name="password" id="password">
+        <button id="1" onclick="fun()">login</button>
+        </form>
+        </div>
+        </div>
+
+        <script>
+
+
+function fun(){
+          if(document.getElementById("email").value=="jerushagaikwad777@gmail.com" && document.getElementById("password").value=="test"){
+           
+            window.open("index.html");
+          }
+          
+
+          else{
+            alert("Wrong credentials");
+          }
+
+        }
+
+         
+        </script>
+    
+</body>
+</html>
